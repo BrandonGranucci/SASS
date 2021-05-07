@@ -1,0 +1,47 @@
+//Section 1: Comments
+/* Comments are successful as you can see*/
+
+//Section 2: Nesting
+body
+  background-color: rgb(61, 68, 67)
+  ul
+    background-color: black
+    li
+      color: #4CAF50
+      h1
+        color: #4CAF50
+.text-center
+  text-align: center
+
+//Section 3: Variables
+
+$variable_color_example: white
+.variable_example
+  color: $variable_color_example
+
+//Section 4: Functions
+
+$theme: light
+$height: 100%
+/* Simple function */
+@function calculate_height()
+  @return $height / 2
+
+
+/* if/else function */
+%button_theme_color
+  @if $theme == dark
+    background-color: #e4c681
+    color: #424242
+  @else if ($theme == light)
+          background-color: #b59749
+          color: #ffffff
+  @else
+  background-color: grey
+  color: #000000
+
+
+
+button
+  @extend %button_theme_color
+  height: calculate_height()

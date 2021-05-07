@@ -1,0 +1,36 @@
+/* Comments are successful as you can see*/
+body {
+  background-color: #3d4443;
+}
+body ul {
+  background-color: black;
+}
+body ul li {
+  color: #4CAF50;
+}
+body ul li h1 {
+  color: #4CAF50;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.variable_example {
+  color: white;
+}
+
+/* Simple function */
+/* if/else function */
+button {
+  background-color: #b59749;
+  color: #ffffff;
+  background-color: grey;
+  color: #000000;
+}
+
+button {
+  height: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
